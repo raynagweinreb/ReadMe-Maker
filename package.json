@@ -1,0 +1,22 @@
+{
+  "name": "readme-maker",
+  "version": "1.0.0",
+  "description": "This is a read-me maker",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/raynagweinreb/ReadMe-Maker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/raynagweinreb/ReadMe-Maker/issues"
+  },
+  "homepage": "https://github.com/raynagweinreb/ReadMe-Maker#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  }
+}
