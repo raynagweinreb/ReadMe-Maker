@@ -12,7 +12,7 @@ const getUsage = usageDescriptionText => {
     if (!usageDescriptionText){
         return ""
     } else {
-        return`##Usage
+        return`## Usage
         ${usageDescriptionText}`
     }
 }
@@ -117,7 +117,7 @@ ${getLicensing(response.licenseChoice)}
 ${getContribution(response.contribution)}
 ${getTesting(response.testing)}
 ## Questions
-This application was created by ${response.gitlink}
+This application was created by ${response.gitLink}
 Please direct any questions to ${response.email}`
 }
 module.exports = generate
