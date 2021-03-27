@@ -95,29 +95,29 @@ const checkTesting = check => {
     
 function generate(response){
     return `
-    # ${response.title}
-    ## Description
-    ${response.description}
-    ## Table of Contents
-    ${checkInstall(response.installation)}
-    ${checkUsage(response.usage)}
-    ${checkCredits(response.credits)}
-    ${checkLicense(response.licensing)}
-    ${checkContribution(response.contribute)}
-    ${checkTesting(response.test)}
-    * [Questions](#questions)
+# ${response.title}
+## Description
+${response.description}
+## Table of Contents
+${checkInstall(response.installation)}
+${checkUsage(response.usage)}
+${checkCredits(response.credits)}
+${checkLicense(response.licensing)}
+${checkContribution(response.contribute)}
+${checkTesting(response.test)}
+* [Questions](#questions)
     
-    ${getInstall(response.install)}
+${getInstall(response.install)}
 
-    ${getUsage(response.usageDescription)}
+${getUsage(response.usageDescription)}
 
-    ${getCredits(response.creditsDescription)}
+${getCredits(response.creditsDescription)}
     
-    ${getLicensing(response.licenseChoice)}
-    ${getContribution(response.contribution)}
-    ${getTesting(response.testing)}
-    ## Questions
-    This application was created by ${response.gitlink}
-    Please direct any questions to ${response.email}`
+${getLicensing(response.licenseChoice)}
+${getContribution(response.contribution)}
+${getTesting(response.testing)}
+## Questions
+This application was created by ${response.gitlink}
+Please direct any questions to ${response.email}`
 }
 module.exports = generate
