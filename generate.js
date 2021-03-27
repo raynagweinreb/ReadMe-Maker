@@ -109,9 +109,9 @@ function generate(response){
     
     ${getInstall(response.install)}
 
-    ${getUsage(response.usage)}
+    ${getUsage(response.usageDescription)}
 
-    ${getCredits(response.credits)}
+    ${getCredits(response.creditsDescription)}
     
     ${getLicensing(response.licenseChoice)}
     ${getContribution(response.contribution)}
