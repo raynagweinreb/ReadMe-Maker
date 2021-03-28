@@ -53,7 +53,7 @@ const checkInstall = check => {
     if (!check){
         return "";
     } else {
-        return `* [installation](#installation)`
+        return `* [Installation](#installation)`
     }
     }
 const checkUsage = check => {
@@ -81,7 +81,7 @@ const checkLicense = check => {
     if (!check){
         return "";
     } else {
-        return `* [License] (#License) This application is licensed by: `
+        return `* [License] (#License)`
     }
     }
 const checkTesting = check => {

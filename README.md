@@ -1,14 +1,14 @@
 
-# test
+# Read-Me Maker Using Node
 ## Description
-testing
+This is a Read-Me maker that utlizes Node. It will ask the user various questions and from those answers it will generate a ReadMe for them.
 ## Table of Contents
-* [installation](#installation)
+* [Installation](#installation)
 
 
-* [License] (#License) This application is licensed by: 
-* [Contribution](#Contribution)
-* [Testing](#Testing)
+
+
+
 * [Questions](#questions)
     
 
@@ -17,12 +17,11 @@ testing
 
 
     
-## License
-        BSD
-## Contributions 
-        contributions
-## Testing
-        test test
+
+
+
 ## Questions
 This application was created by raynagweinreb
-Please direct any questions to rayna@test.com
+Please direct any questions to raynagweinreb@gmail.com
+
+Link to video: https://drive.google.com/file/d/1c4TlbMKzfBC1DQwg-7rInU-J4otM-goT/view
