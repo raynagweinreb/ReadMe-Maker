@@ -123,8 +123,8 @@ inquirer
     type: 'input',
     name: 'testing',
     message: 'Please input testing instructions for the user:',
-    when: ({ confirmTest }) => {
-        if (confirmTest) {
+    when: ({test }) => {
+        if (test) {
             return true;
         } else {
             return false
@@ -148,11 +148,31 @@ inquirer
 .then ((response) => {
     return generate(response);
 })
-.then((generate)=>{
-console.log(generate)
+//.then ((response) => {
+//     if (response.licensing==="MIT"){
+//         licenseBadge="[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+//         fs.appendFile
+//     }
+//     else if (response.licensing==="GNU"){
+//         licenseBadge="[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)"
+//     }
+//     else if (response.licensing==="Apache"){
+//         licenseBadge="[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+//     }
+//     else if (response.licensing==="BSD"){
+//         licenseBadge="[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)"
+//     }
+//     else if (response.licensing==="ISC"){
+//         licenseBadge="[![License: ISC](https://img.shields.io/badge/License-ISC-blue.svg)](https://opensource.org/licenses/ISC)"
+//     }
+//     else if (response.licensing===false){
+//         licenseBadge=""
+//     }
+// })
+ .then((generate)=>{
     fs.writeFile('README.md',generate,(err)=>
     err ? console.error(err) : console.log("your README has been made!"));
-})
+ })
 
 
                             

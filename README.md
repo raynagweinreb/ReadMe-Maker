@@ -1,29 +1,28 @@
 
-# y
+# test
 ## Description
-y
+testing
 ## Table of Contents
 * [installation](#installation)
-* [Usage](#Usage)
-* [Credits](#Credits)
-* [License](#License)
+
+
+* [License] (#License) This application is licensed by: 
 * [Contribution](#Contribution)
 * [Testing](#Testing)
 * [Questions](#questions)
     
 
 
-##Usage
-        y
 
-## credits
-        y
+
+
     
 ## License
-        MIT
+        BSD
 ## Contributions 
-        y
-
+        contributions
+## Testing
+        test test
 ## Questions
-This application was created by undefined
-Please direct any questions to y
+This application was created by raynagweinreb
+Please direct any questions to rayna@test.com
