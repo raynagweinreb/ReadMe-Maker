@@ -106,7 +106,7 @@ ${checkContribution(response.contribute)}
 ${checkTesting(response.test)}
 * [Questions](#questions)
     
-${getInstall(response.install)}
+${getInstall(response.installationDescription)}
 
 ${getUsage(response.usageDescription)}
 
