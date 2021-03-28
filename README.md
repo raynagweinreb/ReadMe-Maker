@@ -11,7 +11,7 @@ This application will ask the user various questions. From their answers, a READ
 
 * [Questions](#questions)
     
-##Installation
+## Installation
         The user will need to install inquierer for this application to work
 
 
